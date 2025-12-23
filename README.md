@@ -19,17 +19,10 @@ Install VirtualBox first. Then download the pfSense ISO file from the official w
 
 [caption id="attachment_174" align="aligncenter" width="1206"]<img class="size-full wp-image-174" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-140424.png" alt="" width="1206" height="724" /> Fig 1[/caption]
 
-&nbsp;
 
 Click DOWNLOAD. On the next page, select the image type shown in the screenshot. Then click ADD TO CART to move to the checkout page.
 
-&nbsp;
-
-&nbsp;
-
 [caption id="attachment_175" align="alignnone" width="1420"]<img class="size-full wp-image-175" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-140857.png" alt="" width="1420" height="856" /> Fig 2[/caption]
-
-&nbsp;
 
 On the checkout page, download the ISO file for free
 
@@ -55,8 +48,6 @@ Before starting the VM, click <strong>Settings</strong> on the VirtualBox and go
 
 [caption id="attachment_181" align="alignnone" width="998"]<img class="size-full wp-image-181" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-144632.png" alt="" width="998" height="962" /> Fig 8.[/caption]
 
-&nbsp;
-
 [caption id="attachment_182" align="alignnone" width="1002"]<img class="size-full wp-image-182" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-144807.png" alt="" width="1002" height="963" /> Fig 9[/caption]
 <p data-start="0" data-end="157">In VirtualBox, network adapters are virtual interfaces that define how a virtual machine connects to networks. Each adapter type serves a specific purpose.</p>
 
@@ -80,11 +71,7 @@ Before starting the VM, click <strong>Settings</strong> on the VirtualBox and go
 
 [caption id="attachment_183" align="aligncenter" width="738"]<img class="size-full wp-image-183" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-151815.png" alt="" width="738" height="513" /> Fig 10.[/caption]
 
-&nbsp;
-
 [caption id="attachment_184" align="aligncenter" width="739"]<img class="size-full wp-image-184" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-152056.png" alt="" width="739" height="526" /> Fig. 11[/caption]
-
-&nbsp;
 
 When the prompt for network setup appears, click <strong>OK</strong> (Fig 12)
 
@@ -114,21 +101,13 @@ After the connectivity check, you may see a validation failed message if there i
 
 [caption id="attachment_191" align="aligncenter" width="853"]<img class="size-full wp-image-191" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-154550.png" alt="" width="853" height="467" /> Fig 18[/caption]
 
-&nbsp;
-
 [caption id="attachment_192" align="aligncenter" width="720"]<img class="size-full wp-image-192" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-154812.png" alt="" width="720" height="507" /> Fig 19[/caption]
-
-&nbsp;
 
 When prompted to select the file system type and partition scheme, click Continue to start the installation.
 
 [caption id="attachment_193" align="aligncenter" width="719"]<img class="size-full wp-image-193" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-155017.png" alt="" width="719" height="510" /> Fig 20.[/caption]
 
 Click OK to choose the ZFS virtual device configuration type.
-
-&nbsp;
-
-&nbsp;
 
 [caption id="attachment_194" align="aligncenter" width="715"]<img class="size-full wp-image-194" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-155136.png" alt="" width="715" height="506" /> Fig 21.[/caption]
 
@@ -145,8 +124,6 @@ When asked which version of pfSense to install, select the <strong>Current Stabl
 [caption id="attachment_197" align="aligncenter" width="719"]<img class="wp-image-197 size-full" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-155905.png" alt="" width="719" height="510" /> Fig 24[/caption]
 
 The installation will then begin (Fig. 25).
-
-&nbsp;
 
 [caption id="attachment_198" align="aligncenter" width="717"]<img class="size-full wp-image-198" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-24-160140.png" alt="" width="717" height="514" /> Fig 25.[/caption]
 
@@ -183,7 +160,6 @@ When the process completes, click <strong>OK.</strong>
 <p data-start="1235" data-end="1322">Under <strong data-start="1241" data-end="1260">Controller: IDE</strong>, keep only the <strong data-start="1276" data-end="1291">pfSense.iso</strong> attached (as Optical Drive).</p>
 </li>
 </ol>
-&nbsp;
 
 When prompted to reboot, click Reboot, then power off the pfSense VM. (Fig. 27.)
 
@@ -329,7 +305,6 @@ Click the green upward arrow to open the configuration page. Set up the rule as 
 
 [caption id="attachment_226" align="aligncenter" width="1231"]<img class="size-full wp-image-226" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-25-102457.png" alt="" width="1231" height="694" /> Fig. 50[/caption]
 
-&nbsp;
 
 [caption id="attachment_227" align="alignnone" width="1246"]<img class="size-full wp-image-227" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-25-102611.png" alt="" width="1246" height="648" /> Fig. 51[/caption]
 <p data-start="0" data-end="90">This firewall rule lets LAN devices send ICMP traffic, such as ping, to any destination.</p>
@@ -420,11 +395,9 @@ Save and apply the changes (Fig. 57)
 
 [caption id="attachment_234" align="aligncenter" width="1250"]<img class="size-full wp-image-234" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-25-105214.png" alt="" width="1250" height="635" /> Fig 58[/caption]
 
-&nbsp;
 
 [caption id="attachment_235" align="alignnone" width="1277"]<img class="size-full wp-image-235" src="https://eyemekacyberportfolio.name.ng/wp-content/uploads/2025/09/Screenshot-2025-09-25-105323.png" alt="" width="1277" height="683" /> Fig. 59[/caption]
 
-&nbsp;
 
 This firewall rule lets LAN devices reach the internet.
 <ul>
